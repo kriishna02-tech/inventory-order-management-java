@@ -53,5 +53,5 @@ inventory-order-management-java/
 │   ├── Inventory.java
 │   ├── OrderManager.java
 │   └── Main.java
-│
+├──.gitignore
 └── README.md

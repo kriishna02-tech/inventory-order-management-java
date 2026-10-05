@@ -67,13 +67,8 @@ public class Inventory {
         ArrayList<Product> list =
                 new ArrayList<>(products.values());
 
-        list.sort(
-                (p1, p2) ->
-                        Double.compare(
-                                p1.getPrice(),
-                                p2.getPrice()
-                        )
-        );
+        list.sort((p1, p2) -> Double.compare( p1.getPrice(),p2.getPrice()));
+        
 
         for (Product p : list) {
             System.out.println(p);
